@@ -1,3 +1,5 @@
+from importlib.resources import Package
+
 def main():
     import sys
     from inventory.inventory_manager import InventoryManager

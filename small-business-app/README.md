@@ -5,19 +5,18 @@ This is a small business application designed to manage inventory efficiently. I
 ## Project Structure
 
 ```
-small-business-app
-├── src
-│   ├── __init__.py
-│   ├── main.py
-│   ├── inventory
+small-business-app/
+├── src/
+│   ├── inventory/
 │   │   ├── __init__.py
 │   │   └── inventory_manager.py
-│   ├── cli
+│   ├── cli/
 │   │   ├── __init__.py
 │   │   └── cli_interface.py
-│   └── utils
-│       ├── __init__.py
-│       └── helpers.py
+│   ├── utils/
+│   │   ├── __init__.py
+│   │   └── helpers.py
+│   └── main.py
 ├── requirements.txt
 ├── setup.py
 └── README.md
